@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-playgenshin",
+  "description": "在你的Koishi控制台玩元神！",
+  "version": "0.0.3",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "@koishijs/plugin-console": "^5.19.1",
+    "koishi": "^4.15.5"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.11.0"
+  }
+}
