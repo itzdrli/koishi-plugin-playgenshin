@@ -1,7 +1,8 @@
 {
   "name": "koishi-plugin-playgenshin",
   "description": "在你的Koishi控制台玩元神！",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "author": "MeowSauce <https://github.com/MeowsSauce>",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [

@@ -1,9 +1,10 @@
 <template>
   <k-layout>
-  <div>
-    <button @click="openCloudGenshin">打开云原神</button>
-  </div>
-
+    <div class="videoContainer">
+      <video class="fullscreenVideo" id="bgVid" playsinline="" autoplay="" muted="" loop="">
+        <source src="start.mp4" type="video/mp4">
+      </video>
+    </div>
   </k-layout>
 </template>
 
